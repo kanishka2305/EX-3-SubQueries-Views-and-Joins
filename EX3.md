@@ -1,5 +1,5 @@
 # EX 3 SubQueries, Views and Joins 
-
+## Date:
 
 ## Create employee Table
 ```sql
@@ -70,44 +70,57 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 ### QUERY:
 
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/e29c0ee1-58e3-4a70-bc42-aab70ce330f0)
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/37aa96d6-f101-4ff6-94e9-4bee4c5893c1)
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/154fa3f0-690b-41e5-bb9a-f4843dbf9d24)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/d2fa9319-1c27-4312-90d5-3475e0578465)
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/2d187552-8518-4deb-a38a-522dde38772e)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/72f14e58-5682-4e6a-be2e-96b365263746)
 
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/09939578-f71c-43c1-bb18-e763fab962ae)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/9e2cb9e6-de71-43c7-b2b2-04e48baa097f)
 
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
 
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/bb465984-029b-400c-970f-3572691db35d)
+
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/129fa53d-4eca-4bc1-9347-b92f243a8072)
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/e760c852-e5a7-4f9e-afcf-5f7e8a7dd431)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/4bad4157-a175-4fcf-a14a-59166a727fc3)
 
 ## Create a Customer1 Table
 ```sql
@@ -140,28 +153,43 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/29ff6623-08a7-429e-83d7-4cd5096cd511)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/da07ac2d-1dc9-45fc-a651-ed03de0ce3f0)
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/739aae28-821e-440e-9d82-53e2fe311633)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/b7806f48-bb05-49fb-92c6-9d396fbfee3a)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/ec0ebf05-0d04-4297-badc-d6ef93bbe084)
 
 
 ### OUTPUT:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/95330863-0f2f-43e5-890b-7b06f562681d)
 
 ### Q10) Perform Left and right join on both tables
 
 ### QUERY:
 
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/82395371-b223-4b10-87fe-9d082c124c26)
 
 ### OUTPUT:
+### Left joint:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/676213b7-1005-42c4-9fe2-9c92918d7e8b)
+
+### Right joint:
+![image](https://github.com/kanishka2305/EX-3-SubQueries-Views-and-Joins/assets/113497357/75999852-0abf-4a01-81a1-fbbd73a1fd05)
+
+## Result:
+Hence successfully created a manager database and executed views and joins using SQL.
